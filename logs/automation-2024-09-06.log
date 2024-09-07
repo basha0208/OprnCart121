@@ -1,0 +1,65 @@
+22:28:57. 067 [%] INFO  testCases.BaseClass {36} - *** Starting Test Case****
+22:28:57. 742 [%] INFO  testCases.BaseClass {36} - *****Login clicked****
+22:28:58. 757 [%] INFO  testCases.BaseClass {36} - *****finished****
+06:07:54. 633 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+
+06:08:07. 710 [%] INFO  testCases.BaseClass {36} - *** Starting Test Case****
+06:08:09. 254 [%] INFO  testCases.BaseClass {36} - *****Login clicked****
+06:08:10. 639 [%] INFO  testCases.BaseClass {36} - *****finished****
+18:35:25. 906 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+
+18:35:37. 423 [%] INFO  testCases.BaseClass {36} - *** Starting Test Case****
+18:35:38. 628 [%] INFO  testCases.BaseClass {36} - *****Login clicked****
+18:35:39. 932 [%] INFO  testCases.BaseClass {36} - *****finished****
+18:36:37. 477 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+
+18:38:41. 470 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+
+18:40:35. 864 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+
+18:43:43. 002 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+
+18:50:13. 785 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+
+18:52:50. 627 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+
+18:56:30. 765 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+
+19:05:17. 334 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+
+19:12:41. 950 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:12:41. 956 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+19:12:41. 959 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:12:41. 959 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:12:41. 959 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:12:41. 960 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:12:41. 960 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:12:41. 960 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:12:41. 967 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+19:12:41. 981 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+19:12:41. 987 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+19:12:41. 988 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+19:12:41. 989 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:12:41. 990 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:12:41. 990 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:12:41. 991 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:12:41. 993 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:12:41. 993 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:12:41. 994 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:12:41. 994 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:12:41. 998 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:12:41. 998 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:12:41. 998 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+19:12:41. 998 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+19:12:42. 000 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+19:12:42. 002 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
