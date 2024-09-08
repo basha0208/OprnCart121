@@ -13,13 +13,14 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_002_LoginPage">
+      <class name="testCases.TC_004_MyAccountCases">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyLoginPage"/>
+          <include name="verify_Change_PASSWORD"/>
+          <include name="verify_Edit_Account_Info"/>
         </methods>
-      </class> <!-- testCases.TC_002_LoginPage -->
+      </class> <!-- testCases.TC_004_MyAccountCases -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [MasterSuite] -->

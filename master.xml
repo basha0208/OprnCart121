@@ -12,14 +12,15 @@
   
   <parameter name="os" value="windows"/>
   
-   <parameter name="browser" value="edge"/>
+   <parameter name="browser" value="chrome"/>
   
   
     <classes>
-      <class name="testCases.BaseClass"/>
+    <!--  <class name="testCases.BaseClass"/> -->
       <!--class name="testCases.TC001_AccountRegistrationTest"/ -->
       <!--class name="testCases.TC_002_LoginPage"/ -->
-      <class name="testCases.TC_003_LoginDDT"/>
+     <!-- <class name="testCases.TC_003_LoginDDT"/> -->
+      <class name = "TC_004_MyAccountCases"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-07T18:22:03 IST" name="MasterSuite" finished-at="2024-09-07T18:22:36 IST" duration-ms="33696">
+  <suite started-at="2024-09-08T21:26:52 IST" name="MasterSuite" finished-at="2024-09-08T21:27:04 IST" duration-ms="11337">
     <groups>
+      <group name="Master">
+        <method signature="TC_004_MyAccountCases.verify_Change_PASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" name="verify_Change_PASSWORD" class="testCases.TC_004_MyAccountCases"/>
+        <method signature="TC_004_MyAccountCases.verify_Edit_Account_Info()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" name="verify_Edit_Account_Info" class="testCases.TC_004_MyAccountCases"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_004_MyAccountCases.verify_Change_PASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" name="verify_Change_PASSWORD" class="testCases.TC_004_MyAccountCases"/>
+        <method signature="TC_004_MyAccountCases.verify_Edit_Account_Info()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" name="verify_Edit_Account_Info" class="testCases.TC_004_MyAccountCases"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2024-09-07T18:22:03 IST" name="Test" finished-at="2024-09-07T18:22:36 IST" duration-ms="33696">
-      <class name="testCases.TC_003_LoginDDT">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@5644dc81]" started-at="2024-09-07T18:22:03 IST" name="setup" finished-at="2024-09-07T18:22:08 IST" duration-ms="4874" status="PASS">
+    <test started-at="2024-09-08T21:26:52 IST" name="Test" finished-at="2024-09-08T21:27:04 IST" duration-ms="11337">
+      <class name="testCases.TC_004_MyAccountCases">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" started-at="2024-09-08T21:26:53 IST" name="setup" finished-at="2024-09-08T21:26:57 IST" duration-ms="4486" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,81 +24,26 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_LoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@5644dc81]" started-at="2024-09-07T18:22:09 IST" name="verify_LoginData" data-provider="LoginData" finished-at="2024-09-07T18:22:12 IST" duration-ms="2859" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bashamustafa12@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[basha_9789952662]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="verify_Change_PASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" started-at="2024-09-08T21:26:57 IST" name="verify_Change_PASSWORD" finished-at="2024-09-08T21:27:00 IST" duration-ms="3073" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_LoginData -->
-        <test-method signature="verify_LoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@5644dc81]" started-at="2024-09-07T18:22:12 IST" name="verify_LoginData" data-provider="LoginData" finished-at="2024-09-07T18:22:24 IST" duration-ms="11461" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bashamustafa12@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[basha_978995266]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verify_Change_PASSWORD -->
+        <test-method signature="verify_Edit_Account_Info()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" started-at="2024-09-08T21:27:00 IST" name="verify_Edit_Account_Info" finished-at="2024-09-08T21:27:03 IST" duration-ms="3013" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_LoginData -->
-        <test-method signature="verify_LoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@5644dc81]" started-at="2024-09-07T18:22:24 IST" name="verify_LoginData" data-provider="LoginData" finished-at="2024-09-07T18:22:35 IST" duration-ms="11073" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ashamustafa12@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[basha_9789952662]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_LoginData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginDDT@5644dc81]" started-at="2024-09-07T18:22:35 IST" name="tearDown" finished-at="2024-09-07T18:22:36 IST" duration-ms="1517" status="PASS">
+        </test-method> <!-- verify_Edit_Account_Info -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" started-at="2024-09-08T21:27:03 IST" name="tearDown" finished-at="2024-09-08T21:27:04 IST" duration-ms="339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_003_LoginDDT -->
+      </class> <!-- testCases.TC_004_MyAccountCases -->
     </test> <!-- Test -->
   </suite> <!-- MasterSuite -->
 </testng-results>

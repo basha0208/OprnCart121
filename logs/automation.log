@@ -1,47 +1,27 @@
-10:34:34. 335 [%] INFO  testCases.BaseClass {36} - *****finished****
-10:38:00. 439 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+19:42:12. 889 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.jq.Main@2e27d72f: 181 ms
+19:42:12. 921 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.FailedReporter@5a6d5a8f: 21 ms
+19:42:12. 937 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.XMLReporter@77e2a6e2: 16 ms
+19:42:12. 954 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3c49fab6: 16 ms
+19:42:12. 967 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@30865a90: 11 ms
+19:42:12. 967 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6134ac4a: 0 ms
+20:13:34. 089 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
   C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 
-10:38:05. 153 [%] INFO  testCases.BaseClass {36} - ... Started....
-10:38:13. 039 [%] INFO  testCases.BaseClass {36} - *** Starting Test Case****
-10:38:13. 622 [%] INFO  testCases.BaseClass {36} - *****Login clicked****
-10:45:12. 807 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+20:16:21. 626 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
   C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 
-10:45:19. 202 [%] INFO  testCases.BaseClass {36} - ... Started....
-10:45:27. 769 [%] INFO  testCases.BaseClass {36} - *** Starting Test Case****
-10:45:28. 766 [%] INFO  testCases.BaseClass {36} - *****Login clicked****
-10:52:45. 306 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
-  C:\Users\Asus\eclipse-workspace\OprnCart121\test-output\testng-failed.xml
+20:27:05. 106 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 
-10:52:56. 189 [%] INFO  testCases.BaseClass {36} - *** Starting Test Case****
-10:52:59. 340 [%] INFO  testCases.BaseClass {36} - *****Login clicked****
-10:53:01. 875 [%] INFO  testCases.BaseClass {36} - *****finished****
-11:19:12. 650 [%] INFO  testCases.BaseClass {36} - logged out clicked
-11:48:27. 287 [%] INFO  testCases.BaseClass {36} - logged out clicked
-12:06:55. 831 [%] INFO  testCases.BaseClass {36} - logged out clicked
-16:55:10. 452 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
-  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+20:57:47. 976 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 
-16:55:35. 768 [%] INFO  testCases.BaseClass {36} - logged out clicked
-17:40:21. 949 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
-  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+21:00:52. 321 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 
-17:40:30. 275 [%] INFO  testCases.BaseClass {36} - logged out clicked
-18:22:03. 065 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
-  C:\Users\Asus\eclipse-workspace\OprnCart121\master.xml
+21:20:28. 086 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 
-18:22:11. 742 [%] INFO  testCases.BaseClass {36} - logged out clicked
-18:24:51. 975 [%] INFO  testCases.BaseClass {36} - logged out clicked
-18:30:32. 994 [%] INFO  testCases.BaseClass {36} - logged out clicked
-19:08:01. 468 [%] INFO  testCases.BaseClass {36} - logged out clicked
-20:07:58. 080 [%] INFO  testCases.BaseClass {36} - logged out clicked
-08:06:29. 391 [%] INFO  testCases.BaseClass {36} - ... Started....
-08:06:38. 505 [%] INFO  testCases.BaseClass {36} - *** Starting Test Case****
-08:06:39. 168 [%] INFO  testCases.BaseClass {36} - *****Login clicked****
-08:06:40. 211 [%] INFO  testCases.BaseClass {36} - *****finished****
-08:08:14. 756 [%] INFO  testCases.BaseClass {36} - ... Started....
-08:08:22. 369 [%] INFO  testCases.BaseClass {36} - *** Starting Test Case****
-08:08:22. 936 [%] INFO  testCases.BaseClass {36} - *****Login clicked****
-08:08:24. 039 [%] INFO  testCases.BaseClass {36} - *****finished****
-08:08:30. 345 [%] INFO  testCases.BaseClass {36} - logged out clicked
+21:26:52. 981 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
+

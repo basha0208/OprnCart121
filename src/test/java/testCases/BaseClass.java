@@ -25,6 +25,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import pageObjects.HomePage;
+import pageObjects.LoginPage;
+
 public class BaseClass {
 
 
@@ -90,6 +93,7 @@ public class BaseClass {
 
 	}
 
+
 	
 	public String captureScreen(String tname) throws IOException {
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
@@ -103,20 +107,35 @@ public class BaseClass {
 		
 		
 		return targetFilePath ;
+	
 	}
 	
+	 public void commonAction() {
+		   HomePage hp = new HomePage(driver);
+			hp.clickMyAccount();
+			hp.clickLogin();
+			
+			LoginPage lp = new LoginPage(driver);
+			lp.setEmail(p.getProperty("Email"));
+			lp.setPassword(p.getProperty("Password"));
+			lp.clickLogin();
+	   }
+	
+	/*public String commonActions(String mail, String pwd) {
 		
-	} 
+		HomePage hp = new HomePage(driver);
+		hp.clickMyAccount();
+		hp.clickLogin();
+		
+		LoginPage lp = new LoginPage(driver);
+		lp.setEmail(p.getProperty(mail,"email"));
+		lp.setPassword(p.getProperty(pwd, "Password"));
+		lp.clickLogin();
+		return commonActions(mail, pwd);
+	}*/
+	
+}
+	
 
 
 
-/* public String captureScreen (String tname) throws IOException {
-String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-File sourceFile = takesScreenshot.getScreenshotAs (OutputType.FILE);
-String
-targetFilePath-System.getProperty("user.dir")+"\\screenshots\\" + tname
-File targetFile=new File(targetFilePath);
-sourceFile.renameTo(targetFile);
-return targetFilePath;
-} */
