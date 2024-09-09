@@ -1,27 +1,60 @@
-19:42:12. 889 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.jq.Main@2e27d72f: 181 ms
-19:42:12. 921 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.FailedReporter@5a6d5a8f: 21 ms
-19:42:12. 937 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.XMLReporter@77e2a6e2: 16 ms
-19:42:12. 954 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3c49fab6: 16 ms
-19:42:12. 967 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@30865a90: 11 ms
-19:42:12. 967 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6134ac4a: 0 ms
-20:13:34. 089 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+18:27:56. 430 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:27:56. 444 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:27:56. 452 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+18:27:56. 453 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:27:56. 456 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:27:56. 456 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:27:56. 457 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:27:56. 458 [%] INFO  org.testng.internal.Utils {36} - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:27:56. 498 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\AppData\Local\Temp\testng-eclipse--801898268\testng-customsuite.xml
+
+18:27:56. 570 [%] INFO  org.testng.internal.Utils {36} - [Utils] DynamicGraphHelper.createDynamicGraph() took 14 ms.
+18:27:56. 857 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.jq.Main@5215cd9a: 111 ms
+18:27:56. 893 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.FailedReporter@27f0ad19: 36 ms
+18:27:56. 912 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.XMLReporter@64d7b720: 19 ms
+18:27:56. 927 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3f3ddbd9: 14 ms
+18:27:56. 936 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@73e132e0: 9 ms
+18:27:56. 936 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3773862a: 0 ms
+18:28:14. 678 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\test-output\testng-failed.xml
+
+18:28:25. 305 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\test-output\testng-failed.xml
+
+18:29:38. 886 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\test-output\testng-failed.xml
+
+18:30:34. 819 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
   C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 
-20:16:21. 626 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+18:43:01. 112 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
   C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 
-20:27:05. 106 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+18:46:10. 304 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
   C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 
-20:57:47. 976 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+18:49:25. 647 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
   C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 
-21:00:52. 321 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+20:39:38. 947 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
   C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 
-21:20:28. 086 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+21:26:29. 426 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
   C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 
-21:26:52. 981 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+21:54:06. 227 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
+
+21:55:12. 936 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
+
+22:00:16. 014 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
+
+22:05:34. 948 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
+  C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
+
+22:12:39. 851 [%] INFO  org.testng.internal.Utils {36} - [TestNG] Running:
   C:\Users\Asus\eclipse-workspace\OprnCart121\groups.xml
 

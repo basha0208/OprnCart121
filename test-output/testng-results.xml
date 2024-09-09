@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-08T21:26:52 IST" name="MasterSuite" finished-at="2024-09-08T21:27:04 IST" duration-ms="11337">
+  <suite started-at="2024-09-09T22:12:39 IST" name="MasterSuite" finished-at="2024-09-09T22:12:53 IST" duration-ms="13428">
     <groups>
       <group name="Master">
-        <method signature="TC_004_MyAccountCases.verify_Change_PASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" name="verify_Change_PASSWORD" class="testCases.TC_004_MyAccountCases"/>
-        <method signature="TC_004_MyAccountCases.verify_Edit_Account_Info()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" name="verify_Edit_Account_Info" class="testCases.TC_004_MyAccountCases"/>
+        <method signature="TC_004_MyAccountCases.verify_ChangePASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" name="verify_ChangePASSWORD" class="testCases.TC_004_MyAccountCases"/>
+        <method signature="TC_004_MyAccountCases.verify_Change_PASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" name="verify_Change_PASSWORD" class="testCases.TC_004_MyAccountCases"/>
+        <method signature="TC_004_MyAccountCases.verify_Edit_Account_Info()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" name="verify_Edit_Account_Info" class="testCases.TC_004_MyAccountCases"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC_004_MyAccountCases.verify_Change_PASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" name="verify_Change_PASSWORD" class="testCases.TC_004_MyAccountCases"/>
-        <method signature="TC_004_MyAccountCases.verify_Edit_Account_Info()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" name="verify_Edit_Account_Info" class="testCases.TC_004_MyAccountCases"/>
+        <method signature="TC_004_MyAccountCases.verify_ChangePASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" name="verify_ChangePASSWORD" class="testCases.TC_004_MyAccountCases"/>
+        <method signature="TC_004_MyAccountCases.verify_Change_PASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" name="verify_Change_PASSWORD" class="testCases.TC_004_MyAccountCases"/>
+        <method signature="TC_004_MyAccountCases.verify_Edit_Account_Info()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" name="verify_Edit_Account_Info" class="testCases.TC_004_MyAccountCases"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2024-09-08T21:26:52 IST" name="Test" finished-at="2024-09-08T21:27:04 IST" duration-ms="11337">
+    <test started-at="2024-09-09T22:12:39 IST" name="Test" finished-at="2024-09-09T22:12:53 IST" duration-ms="13428">
       <class name="testCases.TC_004_MyAccountCases">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" started-at="2024-09-08T21:26:53 IST" name="setup" finished-at="2024-09-08T21:26:57 IST" duration-ms="4486" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-09T22:12:40 IST" name="setup" finished-at="2024-09-09T22:12:44 IST" duration-ms="3604" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,15 +33,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_Change_PASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" started-at="2024-09-08T21:26:57 IST" name="verify_Change_PASSWORD" finished-at="2024-09-08T21:27:00 IST" duration-ms="3073" status="PASS">
+        <test-method signature="verify_ChangePASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-09T22:12:44 IST" name="verify_ChangePASSWORD" finished-at="2024-09-09T22:12:48 IST" duration-ms="4287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ChangePASSWORD -->
+        <test-method signature="verify_Change_PASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-09T22:12:48 IST" name="verify_Change_PASSWORD" finished-at="2024-09-09T22:12:50 IST" duration-ms="2262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Change_PASSWORD -->
-        <test-method signature="verify_Edit_Account_Info()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" started-at="2024-09-08T21:27:00 IST" name="verify_Edit_Account_Info" finished-at="2024-09-08T21:27:03 IST" duration-ms="3013" status="PASS">
+        <test-method signature="verify_Edit_Account_Info()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-09T22:12:50 IST" name="verify_Edit_Account_Info" finished-at="2024-09-09T22:12:53 IST" duration-ms="2371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Edit_Account_Info -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_MyAccountCases@6de54b40]" started-at="2024-09-08T21:27:03 IST" name="tearDown" finished-at="2024-09-08T21:27:04 IST" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-09T22:12:53 IST" name="tearDown" finished-at="2024-09-09T22:12:53 IST" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
