@@ -46,7 +46,6 @@ public class BaseClass {
 		p = new Properties();
 		p.load(file);
 
-
 		logger = LogManager.getLogger();
 		switch(br.toLowerCase())
 		{
@@ -55,7 +54,6 @@ public class BaseClass {
 		case "firefox": driver = new FirefoxDriver(); break;
 		default: System.out.println("invalid browser name"); return;
 		}
-
 
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -93,8 +91,6 @@ public class BaseClass {
 
 	}
 
-
-	
 	public String captureScreen(String tname) throws IOException {
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		 
@@ -105,12 +101,12 @@ public class BaseClass {
 		 File targetFile = new File(targetFilePath);
 		 sourceFile.renameTo(targetFile);
 		
-		
 		return targetFilePath ;
 	
 	}
 	
 	 public void commonAction() {
+		 try {
 		   HomePage hp = new HomePage(driver);
 			hp.clickMyAccount();
 			hp.clickLogin();
@@ -120,19 +116,10 @@ public class BaseClass {
 			lp.setPassword(p.getProperty("Password"));
 			lp.clickLogin();
 	   }
-	
-	/*public String commonActions(String mail, String pwd) {
-		
-		HomePage hp = new HomePage(driver);
-		hp.clickMyAccount();
-		hp.clickLogin();
-		
-		LoginPage lp = new LoginPage(driver);
-		lp.setEmail(p.getProperty(mail,"email"));
-		lp.setPassword(p.getProperty(pwd, "Password"));
-		lp.clickLogin();
-		return commonActions(mail, pwd);
-	}*/
+	catch (Exception e) {
+		System.out.println("Login failed");
+		}
+	 }
 	
 }
 	

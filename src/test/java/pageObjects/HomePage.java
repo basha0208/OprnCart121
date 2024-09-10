@@ -34,9 +34,5 @@ public class HomePage extends BasePage {
 	public void clickLogin() {
 		lnkLogin.click();
 	}
-	public void commonAction_HomePage() {
-		   HomePage hp = new HomePage(driver);
-			hp.clickMyAccount();
-			hp.clickLogin();
-}
+
 }

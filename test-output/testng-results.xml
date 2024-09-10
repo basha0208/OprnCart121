@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-09T22:12:39 IST" name="MasterSuite" finished-at="2024-09-09T22:12:53 IST" duration-ms="13428">
+  <suite started-at="2024-09-10T07:58:00 IST" name="MasterSuite" finished-at="2024-09-10T07:58:15 IST" duration-ms="15096">
     <groups>
       <group name="Master">
         <method signature="TC_004_MyAccountCases.verify_ChangePASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" name="verify_ChangePASSWORD" class="testCases.TC_004_MyAccountCases"/>
@@ -15,9 +15,9 @@
         <method signature="TC_004_MyAccountCases.verify_Edit_Account_Info()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" name="verify_Edit_Account_Info" class="testCases.TC_004_MyAccountCases"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2024-09-09T22:12:39 IST" name="Test" finished-at="2024-09-09T22:12:53 IST" duration-ms="13428">
+    <test started-at="2024-09-10T07:58:00 IST" name="Test" finished-at="2024-09-10T07:58:15 IST" duration-ms="15096">
       <class name="testCases.TC_004_MyAccountCases">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-09T22:12:40 IST" name="setup" finished-at="2024-09-09T22:12:44 IST" duration-ms="3604" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-10T07:58:00 IST" name="setup" finished-at="2024-09-10T07:58:04 IST" duration-ms="3501" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,19 +33,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_ChangePASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-09T22:12:44 IST" name="verify_ChangePASSWORD" finished-at="2024-09-09T22:12:48 IST" duration-ms="4287" status="PASS">
+        <test-method signature="verify_ChangePASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-10T07:58:04 IST" name="verify_ChangePASSWORD" finished-at="2024-09-10T07:58:09 IST" duration-ms="4819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_ChangePASSWORD -->
-        <test-method signature="verify_Change_PASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-09T22:12:48 IST" name="verify_Change_PASSWORD" finished-at="2024-09-09T22:12:50 IST" duration-ms="2262" status="PASS">
+        <test-method signature="verify_Change_PASSWORD()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-10T07:58:09 IST" name="verify_Change_PASSWORD" finished-at="2024-09-10T07:58:12 IST" duration-ms="2839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Change_PASSWORD -->
-        <test-method signature="verify_Edit_Account_Info()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-09T22:12:50 IST" name="verify_Edit_Account_Info" finished-at="2024-09-09T22:12:53 IST" duration-ms="2371" status="PASS">
+        <test-method signature="verify_Edit_Account_Info()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-10T07:58:12 IST" name="verify_Edit_Account_Info" finished-at="2024-09-10T07:58:15 IST" duration-ms="3121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Edit_Account_Info -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-09T22:12:53 IST" name="tearDown" finished-at="2024-09-09T22:12:53 IST" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_MyAccountCases@e6516e]" started-at="2024-09-10T07:58:15 IST" name="tearDown" finished-at="2024-09-10T07:58:15 IST" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

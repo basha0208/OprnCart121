@@ -15,7 +15,6 @@ public class TC_003_LoginDDT extends BaseClass{
 	public void verify_LoginData(String email, String pwd, String exp) {
 		try {
 
-
 			HomePage hp = new HomePage(driver);
 			hp.clickMyAccount();
 			hp.clickLogin();
@@ -28,8 +27,6 @@ public class TC_003_LoginDDT extends BaseClass{
 
 			MyAccountPage msg = new MyAccountPage(driver);
 			boolean TargetValue = msg.confirmationMessage();
-
-
 
 			if(exp.equalsIgnoreCase("valid")) {
 
@@ -52,7 +49,6 @@ public class TC_003_LoginDDT extends BaseClass{
 
 			if(exp.equalsIgnoreCase("invalid")) {
 				
-				
 				if(TargetValue==true) {
 					
 					msg.clickLogout();
@@ -72,8 +68,6 @@ public class TC_003_LoginDDT extends BaseClass{
 			Assert.fail();
 		}
 	}
-
-
 
 }
 
